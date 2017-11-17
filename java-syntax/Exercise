@@ -1,0 +1,31 @@
+
+
+1. Any-App using SOLID principles
+
+----------------------------------------
+
+2.  Listener/Observer pattern
+
+e.g
+
+   Door
+   
+      - open
+      - close
+      
+   DoorListener
+   
+      - on 
+      - off
+      
+      
+    Note: on-demand we can add/remove doorListener with door
+      
+      
+  -------------------------------------------       
+
+
+
+
+
+
