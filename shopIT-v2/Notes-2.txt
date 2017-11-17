@@ -1,0 +1,31 @@
+
+
+
+ shopIT
+ ---------
+ 
+ Model
+ ------
+ 
+ 	- Product
+ 	- Review
+ 	- Customer
+ 	- Order
+ 	..
+ 	
+ 	---------------
+ 	
+ 	Business Components
+ 	------------------
+ 	
+ 	i.e
+ 	
+ 	Billing
+ 	PriceMatrix
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	

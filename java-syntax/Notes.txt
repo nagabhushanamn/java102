@@ -1,0 +1,263 @@
+
+
+1. java-project
+----------------
+
+  proj
+  |
+  |--- p1     ( .java / .class )
+  | | 
+  | |-----p11
+  |
+  |--- p2
+  |
+  |
+  
+  ------------------------------------------------------------
+  
+  
+  
+ 2. Java-File
+ -------------
+ 
+ 
+  PublicType.java
+ -------------------------
+ | // package dec ( 1 )
+ | // import statements ( n )
+ | // public type ( class | interface | enum | annotation ) ( 1 )
+ | // default types ( n )
+ |---------------------------
+ 
+ ---------------------------------------------------------------
+
+ 3. Package dec
+ 
+	 syntax:
+	 
+	 package root.sub;
+	 
+	 guideline to write package dec:
+	 
+	 e.g
+	 
+	    Employee.java ==> emp ==> em ==> sapient ==> org
+	    
+	    package c-type.c-name.p-name.m-name;
+	    
+	    e.g
+	    
+	    package org.sapient.em.emp;
+	    
+	    
+	    why we need packag dec?
+	    
+	    
+	    ==> to avoid type-name collisions
+	    ==> to maintain java files well
+	    
+	    
+---------------------------------------------------------------
+
+
+4. import statements
+
+
+   Proj
+   
+    p1 ==> A.java , B.java
+    p2 ==> C.java , D.java
+    p3 ==> C.java 
+       p31 ==> E.java 
+    
+    
+    e.g
+    
+    package p1;
+    import p2.*;
+    import p3.*;
+    import p3..p31.*;
+    class A{
+     B b;
+     p3.C c;
+     D d;
+     E e;
+    }
+   
+-------------------------------------------------------------------
+
+
+OOP
+----
+
+object
+----------
+
+  -> data,info,attr,props  ==> State
+  -> work,func,method,oprn ==> Behav
+  -> addr,ref,loc          ==> Identity 	    
+  
+  obj ==> SBI
+  
+  ---------------------------
+  
+  
+  class
+  ------
+  
+    ==> template ( S & B ) of similar objects
+    
+ --------------------------------
+ 
+ class ==> object(s)
+ 
+ ---------------------------------
+ 
+ 
+ obj oriented concepts
+ 
+  -> Abstraction
+  -> Encapsulation
+  
+  -> Inheritance
+  -> Polymophism
+  
+ ------------------------------------
+ 
+  
+ -------------------------------------------------------------------
+     
+ 5. class syntax
+ -----------------
+ 
+_________	__________	     class Name [extends] BaseClass {
+[public]		[abstract]	                [implements] I1,I2,...
+[      ]		[final]		     // state
+		    [strictfp]		     
+						     // constructor
+						     // behav
+						     // instance/static blocks
+						     
+						     // inner-class
+-------------------------				     
+[private]	[static]		    				 }   
+[       ]    
+[protected]  
+[public   ]  
+ 
+ 
+-------------------------------------------------------------------
+
+
+ //6. state ==> variables
+ 
+ synatx
+ -------
+ 
+   DataType(s)
+   
+   a. simple-type / values / primitives  ==> 8
+   b. complex-type / objects / reference ==> ( class | interface | enum | annotation )
+ 
+    e.g
+    
+    class Employee{
+    
+    		final static String COMP_NAME="sapeint";
+    		static String tnrName;
+    		int empId;
+    
+    }
+ 
+ 
+ _________  ___________  DataType varName  = [ value | obj's ref );
+ [private]  [static   ]
+ [protected][final    ]
+ [public]   [transient]
+            [volatile ]
+ 
+ local-var           
+ -------------------------            
+   -Nil-     [final]
+ 
+ 
+ -------------------------------------------------------------------
+ 
+ 6. Method
+ 
+ syntax
+ -------
+ 
+         
+_____     ___________    ReturnType methodName([args]) [throws] CheckedException {
+[public]   [static]    
+[protected][strictfp]     // A,R,L & assignment oprns
+[    ]     [final   ]
+[private]  [synchronized] // conditional
+           [abstract ]    // looping
+           [native]       // invoking other behav
+          
+				          [return] [result]
+				         
+				         }
+				 
+-------------------------------------------------------------------
+
+7. Constructor
+
+   in java , obj creation is 2-steps process
+   
+   -> dynamic memory allocation  ==> 'new'
+   -> initialize memory with given/default values ==> 'constructor'
+	   
+	
+	syntax
+	-----------
+	
+	 ______ ______ _____ ClassName([args]) [throws] Exception{
+	 [public]   	           // obj initialization logic
+	 [private]           }
+	 [protected]
+	 [         ]  
+   
+    
+ -------------------------------------------------------------------
+ 
+ 8. Interface ( Type )
+ 
+ 
+ 
+   interface Name [extends] I1,I2,.... {
+   
+	   // immutable state
+	   DataType varName=value/obj;
+	   	
+	   // abstract behav
+	   ReturnType methodName([args])[throws]Exception
+   
+      // default & static methods ( from Java -8 )	
+   
+   }
+ 
+ 
+ -------------------------------------------------------------------
+ 
+ // 9. Enum
+ 
+ enum Gender{
+	 MALE,FEMALE
+ 
+ 
+----------------------------------------------------------------------
+
+10. Annotation
+
+@interface AnnoName{
+  // properties
+  String prop1();
+} 
+
+--------------------------------------------------------------------
+ 
+ 
+  
