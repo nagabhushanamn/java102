@@ -6,11 +6,13 @@ public class App {
 
 	public static void main(String[] args) {
 
-		LinkedList linkedList = new LinkedList();
-		linkedList.add("biryani");
-		linkedList.add("thali");
+		LinkedList<Integer> linkedList = new LinkedList<>();
+		linkedList.add(1);
+		linkedList.add(2);
+		linkedList.add(3);
+		linkedList.add(4);
 
-		for (String item : linkedList) {
+		for (Integer item : linkedList) {
 			System.out.println(item);
 		}
 
