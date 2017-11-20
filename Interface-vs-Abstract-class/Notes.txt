@@ -1,0 +1,10 @@
+
+
+
+
+           module-1 - (dependency)                module-2 - (dependent)
+
+
+top-level    : Interface
+middle-level : Partial-Implementation ( optional )
+bottom-level : Implementation(s)
