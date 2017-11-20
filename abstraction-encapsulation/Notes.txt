@@ -1,0 +1,92 @@
+
+
+
+Abstraction/Interface/ obj's front-end
+---------------------------------------
+
+why we need ?
+
+ --> easy to learn/use by dependent
+ --> for loose-coupling
+ 
+ 
+Encapsulation / Implementation / obj's back-end
+---------------------------------------
+
+ --> to hide obj's complexity / version implementations
+ 
+ 
+ --------------------------------------------
+ 
+ 
+ how to implement in java-lang ?
+ 
+ 
+  --> using access-specifiers & packages
+  --> using accessor(set/get) methods
+  --> using class & interfaces
+  --> using good OO principles
+  --> using good OO patterns
+  
+ ------------------------------------------ 
+ 
+ 
+ 
+ --> using access-specifiers & packages
+ 
+ 
+ e.g
+ 
+   proj
+   
+     p1 ==> 
+     	A.java,
+     	B.java extends A.java
+     	C.java
+     p2 ==> 
+     	D.java extends A.java
+     	E.java
+ 
+ ----------------------------------------------------------------------
+ 				same-package                    |   other-package
+ ----------------------------------------------------------------------
+           same-class | sub-class | other-class  |  sub-class | other-class
+ ----------------------------------------------------------------------
+ 
+ private      Y            N            N               N           N
+ default      Y            Y            Y               N           N
+ protected    Y            Y            Y               Y           N
+ public       Y            Y            Y               Y           Y
+ 
+ 		    -----------------------------------------------------------
+      
+ 
+ 
+ 
+ --> using accessor(set/get) methods
+ --> using class & interfaces
+ 
+ 
+ 
+      e.g
+      
+        a. Car ==> move()
+        b. MRFWheel ==> rotate()
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
