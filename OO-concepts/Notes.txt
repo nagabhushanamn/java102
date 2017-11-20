@@ -1,0 +1,101 @@
+
+
+
+objection relationship
+
+
+---------------------------------------------------
+
+Association
+
+
+     1 to 1
+     1 to M
+     M to 1
+     M to M
+     
+  
+  - Aggregation / weak-association / HAS-A
+  - composition / strong-association / PART-OF
+
+
+---------------------------------------------------
+
+  - dependency
+  
+  - inheritance  / IS-A
+  
+---------------------------------------------------    
+  
+  
+  
+  
+   OO design patterns
+   ------------------
+   
+   proven-solutions for repeated OO problems
+  
+  
+   types
+   
+   1. creational  ==> solutions to create object more effectively
+   
+      a. Singleton
+      b. Factory Method
+      c. Abstract Factory
+      d. Builder
+      e. Prototype
+      
+    ---------------------------------------
+    
+    2. Structural Patterns  ==> solutions how one object connected with other
+    
+      
+      a. Adapter
+      b. Bridge
+      c. Composite
+      d. Decorator  ( used most in IO )
+      e. Facade
+      f. flyweight
+      g. proxy
+      
+   --------------------------------------------
+   
+   
+     3. Behavioral patterns  ==> on event/input , how obj will react
+     
+     
+      a. Observer
+      b. Strategy
+      c. Chain of Responsibility
+      d. State
+      e. visitor
+      f. Iterator
+      g. Mediator
+      h. Momento   
+      i. Template Method
+      j. Command
+      
+      
+    --------------------------------------------
+       
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
