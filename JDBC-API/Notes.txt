@@ -1,0 +1,101 @@
+
+
+  s/w
+  
+    - application  
+    
+    - datasource   
+    
+        - file
+        - rdbms / sql
+        - NoSQL
+        - Redis
+        - Map-Reduce
+        ....
+        
+        
+  -----------------------------
+  
+  - application
+  
+     ==> object model  ( UML )
+  
+  - datasource
+  
+     ==> relational model ( E-R )
+     
+     
+  ------------------------------   
+ 
+  ORM  ( Object Relational Mapping )
+  
+    how to ORM in java-based appln ?
+    
+    ==> using JDBC APi  
+    
+ -------------------------------------   
+ 
+ 
+ basic steps to use JDBC API ?
+ 
+ 
+ 	1. register jdbc-driver
+ 	2. create connection b/w application & DB-server
+ 	
+ 	3. create jdbc-statements with SQL
+ 	4. execute & process resultset
+ 	
+ 	5. manage transactions if required
+ 	6. handle SQL Exceptions properly
+ 	
+ 	7. close connection
+ 	
+----------------------------------------- 	
+ 	
+ 	
+ 	Limitations of JDBC API 
+ 	
+ 	
+ 	- connection management manual.
+ 	- code partially depends on DBMS product
+ 	- too much duplicate for simple data accessing operations
+ 	- too many SQL statements
+ 	- associations b.w entities need to manage manually
+ 	- Exception need to handle 
+ 	- .....
+ 	
+ 	----------------------------------------
+ 	
+ 	solns:
+ 	
+ 	  using ORM F.Ws
+ 	  
+ 	  - Hibernate
+ 	  - Toplink
+ 	  - EclipseLink
+ 	  - iBatis
+ 	  - JDO
+ 	  - ObjectDB
+ 	   ....
+ 	   
+ 	 ------------------------------------------  
+ 	 
+ 	 JPA ( Java Persistent API )
+ 	 
+ 	   -- official standard for ORM
+ 	   
+ 	   --> to use JPA , with any Provider like Hibernate,..
+ 	 
+ 	  ------------------------------------------
+ 
+ 
+ 	
+           
+        
+        
+        
+        
+        
+        
+        
+        

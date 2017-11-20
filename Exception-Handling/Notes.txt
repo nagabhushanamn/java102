@@ -1,0 +1,36 @@
+
+
+Exception:
+
+
+   un-expected program flow disturb 
+   
+   -----------------------------------------------------
+   
+   Advantages of Exceptions
+   
+   Advantage 1: Separating Error-Handling Code from "Regular"
+   Advantage 2: Propagating Errors Up the Call Stack
+   Advantage 3: Grouping and Differentiating Error Types
+   
+   -----------------------------------------------------
+     
+     
+     How to handle Exceptions
+     
+     -> try-catch-finally
+     -> thows
+     -> throw
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   
+        
