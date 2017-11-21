@@ -1,0 +1,162 @@
+
+
+
+
+  Java 8 
+  ------------------------
+  
+  1. Project lambda
+      ==> Functional programming with Lambda-Expression.
+  2. Stream API
+      ==> Improved collection management,parallel processing
+  3. New Date/Time API
+      ==> Simpler management of dates and times.
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+Understanding the Use of Lambda Expressions in Java
+---------------------------------------------------
+
+
+   => Lambdas are the core features of the functional programming paradigm.
+   	
+   	  Over the last years, several object-oriented languages, such as Java 8, C# 3 and C++ 11, 
+   	  added lambda expressions to facilitate the functional programming style,
+   	  and the parameterization of behavior
+
+   	  
+      Need of lambdas in Java language :
+      
+       => To provide clear and concise way to represent one-method interfaces
+          using an expression.
+       => To improve collection F.W using 'streams'
+       => To improve performance in multi-core environments with new concurrent features using 'parallel streams'
+       
+         
+   
+ ----------------------------------------------------------------------------------------------------------------
+ 
+
+ Functional Programming ( FP )
+ 
+ => Functional programming languages (e.g. LISP and Haskell) have been fundamentally designed
+	based on the principles of Lambda Calculus  
+	
+ => Lambda expressions are declared in the form of anonymous functions which, similar to Lambda Calculus,
+    can be passed to or returned by other functions
+    
+    i.e 'behavior' can be passed as an arguments using lambdas, thus enabling 'behavior parameterization'
+    
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+In java ,
+
+lambdas are essentially constructs that can be used to implement interfaces with only
+one abstract method, i.e., "functional interfaces"
+
+A lambda expression in Java consists of
+
+1 - a comma separated
+list of formal parameters enclosed in parentheses (the types of the parameters can be
+omitted, and if there is only one parameter, the parentheses can be omitted as well)
+
+2 - the arrow token (->), and 
+
+3 - the body of the lambda expression, which can be a simple expression or a
+block of statements  
+   	
+-------------------------------------------------------------------------------------------------------------------
+   	
+ Lambda syntax
+ 
+ 	- with live-code
+ 	 	  
+ -------------------------------------------------------------------------------------------------------------------  
+   
+   
+   Anonymous-class vs Lambda-Expressions
+   
+    	  
+ -------------------------------------------------------------------------------------------------------------------  
+  
+  
+   => Java 8 provides 43 built-in functional interfaces (
+      in the java.util.function package) that can be used as types for lambda expressions.
+      
+      
+ -------------------------------------------------------------------------------------------------------------------
+  
+  Reasons for introducing lambdas in code,
+  
+ 
+  1. Terseness of lambdas
+  
+  	   => Lambda expressions are considered more readable, more concise,
+  	     and easier to write than the equivalent code using, e.g., anonymous inner classes
+  	   
+  2. Avoiding the implementation of new classes
+  
+	   => Lambdas are used mainly to avoid introducing any kind of class,
+	  	  including normal or nested (static or non-static) classes 	
+  	   
+  3. Behavior parameterization and reusability
+	   
+	   => Behavior is implemented using a lambda so that it can be reused, 
+	      or can be passed as the varying step of an algorithm which is frequently used, 
+	      to avoid duplicated code (i.e., clones) 	      
+ 
+  4. API convention enforcement
+  
+	   => Methods in API accept functional interfaces (e.g., Suppliers and Consumers), 
+	  	 or the API documentation persuades using lambda expressions	
+	  
+  5. Implementing listeners and callbacks
+  
+  6. Lazy evaluation
+  
+  	   => Lambda expressions are used to de er evaluating an expression
+  		
+  7. Maintaining consistency
+  
+        => Lambda expressions are introduced (or copy-and-pasted) 
+       to maintain the consistency of the existing code that already used lambda expressions 		
+  
+  8. Object-oriented design patterns
+  
+  	    => Specific patterns (e.g., Adapter, Visitor, Decorator, Façade) are implemented using lambdas	     
+ 
+   9. Simplify testing
+   
+   	    => Lambdas are introduced to unify and reuse repetitive testing logic
+   
+   10. Favor composition over inheritance
+   
+   		=> Lambdas are used as instance variables, or passed to class constructors, 
+   		and are used instead of constructing an inheritance hierarchy to achieve polymorphic behavior
+  
+   11. Multi-threading
+   
+   	 	=> The behavior is wrapped into a lambda and passed 
+   	 to specific methods that take care of dispatching the behavior to a certain thread, or handle race conditions  			   
+ 
+ 
+   12. Exception handling
+   
+   	==> The behavior is wrapped into a lambda and passed to a specifc method that handles checked exceptions,
+   	and if necessary, convert the exception to unchecked (so that it doesn’t need to be handled)
+ 
+ 
+ -------------------------------------------------------------------------------------------------------------------
+      
+   
+   
+   	  
+   	  
