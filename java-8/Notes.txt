@@ -23,9 +23,10 @@ Understanding the Use of Lambda Expressions in Java
 ---------------------------------------------------
 
 
-   => Lambdas are the core features of the functional programming paradigm.
+   => Lambdas are the core features of the functional-programming paradigm.
    	
-   	  Over the last years, several object-oriented languages, such as Java 8, C# 3 and C++ 11, 
+   	  Over the last years, several object-oriented languages, 
+   	  such as Java 8, C# 3 and C++ 11, 
    	  added lambda expressions to facilitate the functional programming style,
    	  and the parameterization of behavior
 
@@ -35,7 +36,8 @@ Understanding the Use of Lambda Expressions in Java
        => To provide clear and concise way to represent one-method interfaces
           using an expression.
        => To improve collection F.W using 'streams'
-       => To improve performance in multi-core environments with new concurrent features using 'parallel streams'
+       => To improve performance in multi-core environments with 
+          new concurrent features using 'parallel streams'
        
          
    
@@ -44,13 +46,16 @@ Understanding the Use of Lambda Expressions in Java
 
  Functional Programming ( FP )
  
- => Functional programming languages (e.g. LISP and Haskell) have been fundamentally designed
+ => Functional programming languages (e.g. LISP and Haskell) 
+    have been fundamentally designed
 	based on the principles of Lambda Calculus  
 	
- => Lambda expressions are declared in the form of anonymous functions which, similar to Lambda Calculus,
+ => Lambda expressions are declared in the form of 
+    anonymous functions which, similar to Lambda Calculus,
     can be passed to or returned by other functions
     
-    i.e 'behavior' can be passed as an arguments using lambdas, thus enabling 'behavior parameterization'
+    i.e 'behavior' can be passed as an arguments using lambdas,
+        thus enabling 'behavior parameterization'
     
 
 -----------------------------------------------------------------------------------------------------------------
@@ -59,8 +64,9 @@ Understanding the Use of Lambda Expressions in Java
 
 In java ,
 
-lambdas are essentially constructs that can be used to implement interfaces with only
-one abstract method, i.e., "functional interfaces"
+lambdas are essentially constructs that can be used 
+to implement interfaces with only one abstract method, 
+i.e., "functional interfaces"
 
 A lambda expression in Java consists of
 
@@ -89,7 +95,8 @@ block of statements
   
   
    => Java 8 provides 43 built-in functional interfaces (
-      in the java.util.function package) that can be used as types for lambda expressions.
+      in the java.util.function package) 
+      that can be used as types for lambda expressions.
       
       
  -------------------------------------------------------------------------------------------------------------------
@@ -100,7 +107,8 @@ block of statements
   1. Terseness of lambdas
   
   	   => Lambda expressions are considered more readable, more concise,
-  	     and easier to write than the equivalent code using, e.g., anonymous inner classes
+  	     and easier to write than the equivalent code using, 
+  	     e.g., anonymous inner classes
   	   
   2. Avoiding the implementation of new classes
   

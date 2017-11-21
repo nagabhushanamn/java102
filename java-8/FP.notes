@@ -1,0 +1,39 @@
+
+
+FP
+-------
+
+ - function(s) are first-class citizens
+ 
+
+  -> treat any function as value/object
+  -> can assign function to variable(s)
+  
+  functions should be higher-order-functions
+  ----------------------------------------
+  
+  -> can pass function(s) to other function as arg
+  -> can return function from other function 
+  
+  -------------------------------------------
+  
+  
+  
+  FP principles
+  --------------
+  
+  ==> function always need to 'pure'
+  
+  		==> function should not mutate given args
+  		==> function should not perform any side-effects ( changing state )
+  		
+  ==> function should take input-params & produce new output
+  
+  ---------------------------------------------
+  
+  
+  
+  
+  		
+  
+  
