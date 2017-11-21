@@ -36,6 +36,7 @@ Understanding the Use of Lambda Expressions in Java
        => To provide clear and concise way to represent one-method interfaces
           using an expression.
        => To improve collection F.W using 'streams'
+       
        => To improve performance in multi-core environments with 
           new concurrent features using 'parallel streams'
        

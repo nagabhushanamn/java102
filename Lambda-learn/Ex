@@ -1,0 +1,31 @@
+
+
+model
+--------
+
+Employee
+----------
+	- name
+	- dob
+	- salary
+	- gender ( enum )
+
+Product
+----------
+	- name
+	- price
+		
+-----------------------------------------------
+ItemsLib
+   - forEach   ==> loop persons to console
+   - map	       ==> extract required props from persons
+   - filter    ==> filter by any conditions
+-------------------------------------------
+App
+  -> have 5 sample items( employees | products )
+  -> test with ItemsLib with functional lambdas
+-------------------------------------------  	
+	
+	
+	
+	
