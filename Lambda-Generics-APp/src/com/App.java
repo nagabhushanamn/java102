@@ -1,5 +1,6 @@
 package com;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -37,6 +38,10 @@ public class App {
 		List<Double> priceList = Arrays.asList(12.12, 13.13, 14.14);
 		List<Double> newPriceList = Lib.map(priceList, p -> p - 10.00);
 		System.out.println(newPriceList);
+
+		// --------------------------------
+
+		// List[] myLists = new ArrayList[10];
 
 	}
 
