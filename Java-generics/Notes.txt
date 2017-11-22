@@ -1,0 +1,14 @@
+
+
+
+  Why Use Generics?
+  
+  --> Stronger type checks at compile time.
+  --> Elimination of casts.
+  --> Enabling programmers to implement generic algorithms.
+  
+  
+  ----------------------------------------
+  
+  
+  
