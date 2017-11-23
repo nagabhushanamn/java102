@@ -1,0 +1,103 @@
+
+
+ IO
+ ------
+ 
+ 
+  sources of input/output
+  ------------------------
+  
+  - standard input/output ( keyboad / display )
+  - file
+  - n/w sockets
+  - buffer
+  
+  
+  --------------------------------
+  
+  in Java, All IO operations are 'stream' based
+  
+  2 ways
+  
+  -> 8-bit / byte-stream
+  -> 16-bit / character-stream
+  
+ 
+  -------------------------------------
+  
+  IO class(s) to do IO operations
+  --------------------------------
+  
+  java.io.* / java.nio.* 
+  
+  
+  
+  byte-stream
+  
+   - InputStream
+   - OutputStream
+  
+  character-stream
+  
+   - Reader
+   - Writer
+   
+ ----------------------------------------
+ 
+ 
+   source : file
+   
+   byte-stream
+   -------------
+   
+    FileInputStream
+    FileOutputStream
+    
+   character-stream
+   -----------------  
+   
+     FileReader
+     FileWriter
+     
+ -------------------------------------------------
+ 
+ 
+ 
+ 
+   SERIALIZATION:
+   ---------------
+   
+  
+     serializing/converting java-obj structure with data
+     to byte-stream, then save in file-system
+     or transfer over n/w to another java-application
+     
+     why we need ?
+     
+     ==> to keep passive-obj  away from heap-memory.
+     ==> to distribute/re-usable objs over n/w to other -appln
+     ==> to re-use complex-obj often with re-creating it from secondary-memory
+     
+     -------------------------------------------
+     
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+  
+  
