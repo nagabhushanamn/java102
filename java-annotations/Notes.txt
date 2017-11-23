@@ -1,0 +1,96 @@
+
+
+
+
+
+  Annotation:
+  
+    ==> meta-data about out java-program to other
+      ( compiler , runtime , tools , frameworks )
+      
+      
+  ------------------------------------
+  
+  project-code ==> business-logic-code + config-code 
+  
+  
+  config-code ==>
+  
+  1st gen : java
+  2nd gen : XML
+  3rd gen : Annotations
+  
+  
+  ---------------------------------------
+  
+  Java programming-style
+  -----------------------
+  
+   ==> component & container style
+   
+     component ==> business-logic ( your appln code )
+  	 container ==> infra-logic to execute components
+  	 
+  	 
+  java standard components
+  --------------------------	 
+  
+    Java SE
+    ---------
+    
+    a. application   ==> to develope stand-alone application
+    b. applet        ==> 	 
+    
+    Java EE
+    ---------
+    
+    a. servlet & JSP ==> to develop dynamic web-app
+    b. EJB ( Enterpise Java Bean ) ==> to develop server-side business-comp
+    
+    --------------------------
+  
+  
+  java standard containers
+  --------------------------	 
+  
+  
+    Java SE
+    ---------
+    
+    a. application   ==> client-JRE
+    b. applet        ==> browser with JRE  ( closed )
+    
+    
+    Java EE
+    ---------
+    
+    a. servelet & JSP  ==> web-container with JRE ( i.e Tomcat,Jetty,etc... )
+    b. EJB           ==> ejb-container with JRE ( i.e glassfish,tomee,.. )
+    
+    
+    ------------------------------- 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+     
+  
+

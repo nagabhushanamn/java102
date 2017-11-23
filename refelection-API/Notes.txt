@@ -1,0 +1,20 @@
+
+Ex-1
+-----------------------------------
+
+ A B C D E F G H G F E D C B A
+ A B C D E F G   G F E D C B A
+ A B C D E F       F E D C B A
+ A B C D E           E D C B A
+ A B C D               D C B A
+ A B C                   C B A
+ A B                       B A
+ A                           A
+ 
+ -----------------------------------
+ 
+ Ex-2  : SSN validation ( without RegExp )
+ 
+ ssn-format : 123-23-4344
+ 
+ --------------------------------------
