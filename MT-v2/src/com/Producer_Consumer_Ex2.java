@@ -1,6 +1,6 @@
 package com;
 
-public class ProducerConsumer {
+public class Producer_Consumer_Ex2 {
 
 	private static Object lock = new Object();
 
