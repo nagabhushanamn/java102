@@ -6,7 +6,7 @@ public class Ex2 {
 
 		Runnable task = () -> {
 			// ==> RUNNING
-			String name = Thread.currentThread().getName();
+			String name = Thread.currentThread().getName(); 
 			for (int i = 0; i < 500; i++) {
 				System.out.println(name + "-->" + i);
 				// ==> NOT-READY-TO-RUN | READY-TO-RUN
