@@ -1,0 +1,71 @@
+
+
+shop-accounts-service
+------------------------
+
+	
+Model (business data )
+------------------------
+   
+   a. Account/Customer
+    
+    		- username
+    		- password
+    		- name
+    		- email
+    		- mobile
+    		
+    	b. Order
+    	c. Rewards
+    		
+--------------------------------
+    
+    layer(s)
+    ---------
+    
+    a. data/repository layer : ==> persisting/data-accessing logic
+    
+    e.g
+    
+    		 1. AccountRepository
+    		     - save(Account account)
+    		     - find(String num)
+    		     - update(Account account)
+    		     ...
+    	     2. OrderRepository
+    	     3. RewardsRepository
+    	     
+    	     using any data-accessing technologies
+    	     
+    	     for java-lang 
+    	        => jdbc,hibernate,jpa,etc....
+    	     
+    	 ---------------------------------------------   
+    	 
+    	 b. service/business layer : ==> processing logic  	     
+
+	   1. AccountService
+	    
+		    	 - create()
+		    	 - login()
+		    	 
+	   2. OrderService
+	   
+	         - submit(cart)
+	         
+	  -----------------------------------------------       
+	
+
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    		
+    
